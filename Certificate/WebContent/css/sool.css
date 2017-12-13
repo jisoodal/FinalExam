@@ -1,0 +1,342 @@
+@CHARSET "UTF-8";
+@font-face{font-family:'@J신영복_TT'; src:url('/fonts/J신영복_TT.woff')}
+@font-face{font-family:'@J신영복_TT'; src:url('/fonts/J신영복_TT.eot')}
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* { font-family: '서울한강체', sans-serif; }
+
+.spaceLeft {
+  margin-left: 10px;
+}
+.spaceRight {
+  margin-right: 10px;
+}
+
+/* navbar색상변경 */
+nav#subnav.navbar.navbar-fixed-top{
+	background-color:#f2f5f7 !important;
+	color:pink;
+}
+
+/* 작은화면 반응형 */
+@media (max-width: 600px){
+div#content.container {
+    margin-top: 30% !important;
+    margin-bottom: 15%;
+}
+}
+
+.btn span.fa {
+	opacity: 0;
+}
+.btn.active span.fa {
+	opacity: 1;
+}
+
+.navbar-fixed-top .navbar-collapse{
+	max-height: none !important;
+}
+
+p.partner{
+   text-align:left;
+   color:#CC723D;
+   font-size:17px;
+}
+
+.soolpic{
+	width: 100%; 
+	max-width: 100%; 
+	vertical-align:middle;
+}
+
+p.text-inverse{
+   font-family:'@J신영복_TT'; 
+   font-size:200%;
+   font-style:oblique;
+}
+/* 0208추가 */
+nav{
+   font-family:'서울한강체';
+   color:#d5bead !important;
+   font-weight:bold;
+}
+
+nav,#navbar2 a:hover{
+   color:#d5bead;
+   background-color:transparent;
+}
+
+footer{
+   bottom:0;
+   width:100%;
+   padding-top:0px !important;
+   color: #6f7277;
+   font-size:small;
+   background-color: #f2f5f7;
+}
+@media all and (min-width: 1240px) {
+   footer#fixed{
+   position:fixed;
+   bottom:0;
+}
+div#content.container{
+   margin-top:7%;
+   margin-bottom:15%;
+}
+
+div#member.container{
+   margin-top:5%;
+   margin-bottom:15%;
+}
+
+form{
+	width:50%;
+	margin:auto;
+	padding:10px 10px 10px 30px;
+	
+}
+}
+
+div.form-group.col-md-3{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+@media all and (max-width: 1240px) {
+   div#content.container{
+   margin-top:10%;
+   margin-bottom:15%;
+}
+ div#member.container{
+   margin-top:10%;
+   margin-bottom:15%;
+}
+
+   nav.navbar.navbar-fixed-top{
+      background-color:#f2f5f7;
+      text-align:center;
+ 	  max-height: 100% !important;
+}
+form{
+	width:100%;
+	margin:auto;
+	/* border:1px solid #000; */
+	padding:10px 10px 10px 30px;
+}
+   }
+   
+   ul.dropdown-menu{
+   text-align:center;
+   }
+   form#mre_form{
+	border:none;
+	margin:5px;
+	width: 100%;
+    margin: 10px 10px;
+}
+}
+
+.btn-default:hover { 
+    color: #b8c0c6 !important;
+    background-color:#fff !important;
+    font-weight: bold !important;
+    border-color: #fff !important;
+    border-width: 5px !important;
+}
+
+.btn-default {
+    color: #015971 !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border-color: #015971 !important;
+    border-width: 2px !important;
+}
+
+
+div#alert.container{
+   margin:15% auto;
+   text-align:center;
+}
+
+
+table.kg{
+   /* background-color:#f7f7f7; */
+   border-collapse:collapse;
+   width:600px;
+   margin:0 auto;
+   /* align:center; */
+}
+div#content h3{
+   font-family:'@J신영복_TT';
+   color:#000000;
+   text-align:right;
+}
+
+div#content h2{
+	font-family:'서울한강체';
+    font-weight:bold;
+}
+.gayoh2{
+   font-family:'@J신영복_TT';
+   color:#000000;
+}
+
+p.con1{
+   font-family:'서울한강체';
+   font-size:13pt;   
+   line-height:2em;
+} 
+p.con2{
+   font-family:'서울한강체';
+   font-size:16pt;
+   color:#ff8000;
+}
+p.con3{
+   font-family:'서울한강체';
+   font-size:18pt;
+   font-weight:bold;
+}
+p.ph{
+   font-family:'@J신영복_TT';   
+   font-size:23pt;
+   color:#804000;
+}
+ 
+#content img{
+   width:100%;
+   height:auto;
+}
+
+/* 학수 */
+@CHARSET "UTF-8";
+
+.page-main-style{
+	width:900px;
+	margin:0 auto;
+}
+.result-display{
+	width:400px;
+	margin:100px auto;
+	border:1px solid #000;
+	padding:100px 0 100px 0;
+	text-align:center;
+}
+.align-center{
+	text-align:center;
+}
+.align-right{
+	text-align:right;
+}
+
+/*목록*/
+form#search_form{
+	border:none;
+}
+ul.search{
+	width:300px;
+	list-style:none;
+	padding:0;
+	margin:0 auto;	
+}
+ul.search li{
+	margin:0 0 9px 0;
+	padding:0;
+	display:inline;
+}
+.list-space{
+	width:700px;
+	margin:10px auto;	
+}
+
+table{
+	width:700px;
+	margin:0 auto;
+	/* border:1px solid #000; */
+	border-collapse:collapse;
+}
+table td, table th{
+	/* border:1px solid #000; */
+	padding:5px;
+}
+/*글 상세*/
+.detail-img{
+	max-width:200px;	
+}
+div#reply_div{
+	padding:5px 10px 40px 10px;
+	margin-top:10px;
+	background-color:#eee;
+}
+form#re_form{
+	width:80%;
+	border:none;
+}
+span.re-title{
+	color:#000;
+	font-size:12pt;
+	line-height:200%;
+}
+span.letter-count{
+	font-size:10px;
+	color:#999;
+}
+span.form-id{
+	padding-left:93px;
+	color:#000;
+}
+textarea.rep-content{
+	width:100%;
+	margin:10px 10px;
+	}
+
+div#re_first{
+	float:left;
+	width:79%;
+	margin-bottom:10px;	
+}
+div#re_second{
+	float:left;
+	width:20%;
+	margin-bottom:10px;
+}
+div#loading{
+	width:100px;
+	margin:0 auto;
+}
+div.paging_button{
+	text-align:right;	
+}
+div#output{
+	clear:both;
+}
+
+form#mre_form{
+	border:none;
+	margin:5px;
+}
+/*등록,수정폼*/
+
+ul{
+	list-style:none;
+}
+label{
+	width:100px;
+	float:left;
+}
+
+.footcon1{
+	color: #999999;
+}
+
+.footcon2{
+	color: #f9b24f;
+}
+
+.footcon3{
+	color: #666666; 
+	font-size: 11px;
+}
+.foottitle{
+	font-size:18px;
+	font-weight:bold;
+}
